@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4261367362336034535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4261367362336034534}
+  - component: {fileID: 2081359417}
+  m_Layer: 17
+  m_Name: KatanaV1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4261367362336034534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4261367362336034535}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 664.953, y: 419.248, z: -325.065}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8506155830096246501}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &2081359417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4261367362336034535}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6f13699cc5c6741a6168a1f8a9793a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwForce: 20
+  throwExtraForce: 15
+  rotationForce: 120
+  animTime: 0.4
+  weaponGfxLayer: 18
+  weaponGfxs:
+  - {fileID: 4634404609230095606}
+  gfxColliders:
+  - {fileID: 157695137}
+  HELDER: {fileID: 0}
+  HandsOff: {fileID: 0}
+--- !u!64 &157695137
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4634404609230095606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3099959741785127642, guid: 5412e5bf6714fe542baa89495c28ed1c, type: 3}
+--- !u!1001 &4261367362187169980
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4261367362336034534}
+    m_Modifications:
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.021911621
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.282
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895697204338742346, guid: 960ac805af6699f4397d4662d673a32d,
+        type: 3}
+      propertyPath: m_Name
+      value: Cyber Katana Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 960ac805af6699f4397d4662d673a32d, type: 3}
+--- !u!1 &4634404609230095606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8895697204338742346, guid: 960ac805af6699f4397d4662d673a32d,
+    type: 3}
+  m_PrefabInstance: {fileID: 4261367362187169980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8506155830096246501 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5559839567980078681, guid: 960ac805af6699f4397d4662d673a32d,
+    type: 3}
+  m_PrefabInstance: {fileID: 4261367362187169980}
+  m_PrefabAsset: {fileID: 0}

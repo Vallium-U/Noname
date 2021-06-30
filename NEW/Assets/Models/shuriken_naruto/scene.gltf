@@ -1,0 +1,344 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1288,
+      "max": [
+        249.47689819335938,
+        252.10098266601562,
+        160.0867919921875
+      ],
+      "min": [
+        -249.47685241699219,
+        -252.03091430664062,
+        64.9151611328125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 15456,
+      "componentType": 5126,
+      "count": 1288,
+      "max": [
+        1,
+        1,
+        0.98574107885360718
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.98574107885360718
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1288,
+      "max": [
+        1,
+        1,
+        0.97187507152557373,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.97186833620071411,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1288,
+      "max": [
+        1.0277777910232544,
+        1
+      ],
+      "min": [
+        0.027777820825576782,
+        0.072456710040569305
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7530,
+      "max": [
+        1287
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 101,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 101,
+      "max": [
+        6.6578685675722227e-08,
+        6.6578287771790201e-08,
+        0.999988853931427,
+        0.99999481439590454
+      ],
+      "min": [
+        -3.1455531512847301e-08,
+        -5.6935945735858695e-08,
+        -0.8551633358001709,
+        -0.47245407104492188
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 5,
+          "interpolation": "LINEAR",
+          "output": 6
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Anthony Yanez (https://sketchfab.com/paulyanez)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/656e08c4c3e046f6b7f0ed56a7683d8e",
+      "title": "Shuriken (Naruto)"
+    },
+    "generator": "Sketchfab-4.15.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 30120,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10304,
+      "byteOffset": 30120,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 30912,
+      "byteOffset": 40424,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20608,
+      "byteOffset": 71336,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 404,
+      "byteOffset": 91944,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1616,
+      "byteOffset": 92348,
+      "byteStride": 16,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 93964,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "02_-_Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.055417560400000003,
+          0.055417560400000003,
+          0.055417560400000003,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.10804115849999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder001_02 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "2625d6ec98994f8faad52fc7f3483eed.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": ""
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Cylinder001",
+      "rotation": [
+        7.7690110344974528e-08,
+        -2.4495596662177377e-08,
+        -0.30070579051971436,
+        0.9537169337272644
+      ],
+      "translation": [
+        1.6257096529006958,
+        43.172592163085938,
+        -4.33807373046875
+      ]
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1,
+        0,
+        -0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.9110349209513515e-06,
+        -1.3393328117672354e-05,
+        -112.35137939453125,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": "Cylinder001_02 - Default_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
