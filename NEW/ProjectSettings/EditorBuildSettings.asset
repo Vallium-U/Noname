@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Menu.unity
     guid: 6b5431d8bb478894899fa5984e8c6c6a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Sand.unity
     guid: 558c31b0511e8a645b479268ef977361
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -23,18 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Enemy scene.unity
     guid: df1c6939dfd32df4dadaaed7da1067d1
-  - enabled: 1
-    path: Assets/Scenes/City.unity
-    guid: 15c865ddfe7d60344b7a927c75903397
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Sandbox2.unity
     guid: 6344d862a799a9240a105af9faf5d34b
-  - enabled: 1
-    path: Assets/Scenes/Sandbox3.unity
-    guid: 21a06fd062c124344be4debb713c81fb
-  - enabled: 1
-    path: Assets/Scenes/Sandbox4.unity
-    guid: 21147932e1633504385e9c39b034c333
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Sandbox5.unity
     guid: 95616397236ac7341883c6ddad029716
